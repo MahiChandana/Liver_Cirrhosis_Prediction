@@ -1,0 +1,57 @@
+Activity-3: Literature Survey – Liver Cirrhosis Prediction
+1. Introduction
+Liver cirrhosis is a chronic, progressive condition marked by the scarring of liver tissue, commonly resulting from prolonged liver diseases such as hepatitis, alcoholism, or fatty liver disease. Early diagnosis is essential to initiate timely treatment and reduce the risk of complications. With advancements in artificial intelligence, particularly machine learning (ML), researchers have explored various predictive models for cirrhosis detection and prognosis. This literature survey critically examines existing research, identifying key methodologies, evaluating their strengths and limitations, and highlighting potential areas for future work.
+
+2. Overview of Existing Systems
+Several publicly available datasets and predictive models have been developed for liver disease prediction:
+
+UCI Liver Disorders Dataset (BUPA): A widely used dataset containing features such as liver enzyme levels, bilirubin, and demographic details.
+
+Indian Liver Patient Dataset (ILPD): Based on real clinical data from Indian hospitals, frequently used for training and evaluating ML models.
+
+Key machine learning models applied include:
+
+Logistic Regression & Decision Trees: Popular in early studies for their simplicity and interpretability.
+
+Support Vector Machines (SVM): Effective for small, well-structured datasets.
+
+Random Forests & Gradient Boosting Machines (e.g., XGBoost): Achieve high accuracy using ensemble learning techniques, albeit with lower interpretability.
+
+Deep Neural Networks: Capable of capturing complex patterns, though requiring large datasets and considerable computational resources.
+
+3. Techniques and Methodologies
+A range of ML strategies and preprocessing techniques have been adopted across studies:
+
+Feature Selection: Used to reduce unnecessary features and improve accuracy. Example: PCA used by Sarwar et al. (2018).
+
+Data Preprocessing: Involves handling missing values, normalization, and balancing. SMOTE and normalization improve model performance.
+
+Classification Algorithms: Models like SVM, k-NN, Random Forest, XGBoost, and DNN are used. Aziz et al. (2020) found XGBoost performed best.
+
+Evaluation Metrics: Accuracy, Precision, Recall, F1-score, and ROC-AUC are used to assess model performance.
+
+4. Strengths and Weaknesses of Current Approaches
+Strengths:
+Higher accuracy with ensemble models and deep learning.
+Availability of open datasets facilitates reproducibility.
+Domain-specific feature engineering improves clinical relevance.
+
+Weaknesses:
+Most datasets are small and lack diversity, affecting generalizability.
+Majority of models are based on static (cross-sectional) data, not longitudinal trends.
+Class imbalance leads to biased predictions.
+Limited focus on interpretability, hindering clinical acceptance.
+
+5. Research Gaps and Opportunities
+Despite promising developments, several areas remain underexplored:
+
+Explainable AI (XAI): Few studies provide transparency into model decisions, which is crucial for healthcare deployment.
+
+Data Quality and Diversity: Existing datasets are often limited in size, geographic scope, and demographic representation.
+
+Integration with Clinical Systems: Most models are not designed for integration with electronic health records (EHRs) or real-time clinical use.
+
+Temporal Modeling: Current approaches often overlook disease progression over time, missing opportunities for prognosis modeling.
+
+6. Conclusion
+The application of machine learning in liver cirrhosis prediction is a growing field with encouraging outcomes. While ensemble methods and deep learning models demonstrate strong predictive capabilities, challenges remain—particularly in data quality, interpretability, and clinical integration. Future research should prioritize explainable and clinically validated models, use larger and more diverse datasets, and aim for seamless integration into real-world healthcare environments to truly revolutionize liver disease management.

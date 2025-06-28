@@ -1,0 +1,31 @@
+ Milestone 1: Define the Problem
+ Activity 1: Specify the Diabetic Results
+
+Problem Context:
+Diabetes is widely recognized as a critical comorbidity in patients with liver diseases, particularly liver cirrhosis. The metabolic disruptions caused by diabetes — such as insulin resistance and elevated blood glucose levels — can accelerate liver damage and contribute to the progression of cirrhosis.
+
+Objective:
+To identify and specify the diabetic-related indicators relevant to predicting liver cirrhosis, and to define how these parameters will be integrated into the model development process.
+
+Dataset Exploration:
+The dataset is reviewed to identify diabetic-related features, such as:
+
+Presence of Diabetes (binary classification: Yes/No or 1/0)
+
+Fasting Blood Sugar (FBS)
+
+Random Blood Glucose
+
+HbA1c (Glycated Hemoglobin)
+
+These features, if available, will be used to categorize patients and assess their impact on cirrhosis prediction.
+
+Specification of Diabetic Results:
+In this study, diabetic parameters such as the presence of diagnosed diabetes and fasting blood sugar levels are considered as potential predictive features. Diabetic status is determined using clinical thresholds (e.g., FBS > 126 mg/dL or diabetes = 1). These variables will be analyzed for their statistical correlation with cirrhosis severity and progression.
+
+Significance:
+Patients with diabetes are at increased risk of developing liver complications due to chronic metabolic stress. Incorporating diabetic markers into the prediction model helps capture this risk, potentially improving diagnostic accuracy and supporting early intervention strategies.
+
+Final Output:
+
+Diabetes-related indicators, including fasting blood glucose and known diabetes status, are integrated into the machine learning framework to enhance the prediction of liver cirrhosis. This approach allows the model to account for comorbidities that may influence liver health, enabling more precise risk stratification and clinical decision-making.
